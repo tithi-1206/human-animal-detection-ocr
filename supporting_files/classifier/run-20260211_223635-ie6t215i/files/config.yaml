@@ -1,0 +1,31 @@
+_wandb:
+    value:
+        cli_version: 0.24.2
+        e:
+            xgoux1horij3qcscfenaoqqhqkbgif7l:
+                codePath: train_classifier.py
+                codePathLocal: train_classifier.py
+                email: tithidangarwala@gmail.com
+                executable: F:\maharshi_industries\env\Scripts\python.exe
+                host: DESKTOP-5E2GADV
+                os: Windows-11-10.0.26100-SP0
+                program: F:\maharshi_industries\train_classifier.py
+                python: CPython 3.12.10
+                root: F:\maharshi_industries
+                startedAt: "2026-02-11T17:06:35.049400Z"
+                writerId: xgoux1horij3qcscfenaoqqhqkbgif7l
+        m: []
+        python_version: 3.12.10
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "4": 3.12.10
+            "5": 0.24.2
+            "8":
+                - 3
+            "12": 0.24.2
+            "13": windows-amd64

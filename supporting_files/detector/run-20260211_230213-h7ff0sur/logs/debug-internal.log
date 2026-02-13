@@ -1,0 +1,16 @@
+{"time":"2026-02-11T23:02:16.2181205+05:30","level":"INFO","msg":"stream: starting","core version":"0.24.2"}
+{"time":"2026-02-11T23:02:17.6080634+05:30","level":"INFO","msg":"stream: created new stream","id":"h7ff0sur"}
+{"time":"2026-02-11T23:02:17.6080634+05:30","level":"INFO","msg":"handler: started","stream_id":"h7ff0sur"}
+{"time":"2026-02-11T23:02:17.6091998+05:30","level":"INFO","msg":"stream: started","id":"h7ff0sur"}
+{"time":"2026-02-11T23:02:17.6091998+05:30","level":"INFO","msg":"writer: started","stream_id":"h7ff0sur"}
+{"time":"2026-02-11T23:02:17.6098191+05:30","level":"INFO","msg":"sender: started","stream_id":"h7ff0sur"}
+{"time":"2026-02-11T23:17:04.9823706+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/tithidangarwala-pandit-deendayal-energy-university/human-animal-detection/h7ff0sur/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2026-02-11T23:17:07.2757477+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/tithidangarwala-pandit-deendayal-energy-university/human-animal-detection/h7ff0sur/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2026-02-11T23:17:41.1706786+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/tithidangarwala-pandit-deendayal-energy-university/human-animal-detection/h7ff0sur/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2026-02-11T23:50:39.5236113+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/tithidangarwala-pandit-deendayal-energy-university/human-animal-detection/h7ff0sur/file_stream\": write tcp 192.168.1.11:53136->35.186.228.49:443: wsasend: An existing connection was forcibly closed by the remote host."}
+{"time":"2026-02-12T00:07:52.9148282+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-12T00:07:53.2641124+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-12T00:07:53.2730741+05:30","level":"INFO","msg":"stream: closing","id":"h7ff0sur"}
+{"time":"2026-02-12T00:07:53.2730741+05:30","level":"INFO","msg":"handler: closed","stream_id":"h7ff0sur"}
+{"time":"2026-02-12T00:07:53.2735834+05:30","level":"INFO","msg":"sender: closed","stream_id":"h7ff0sur"}
+{"time":"2026-02-12T00:07:53.2735834+05:30","level":"INFO","msg":"stream: closed","id":"h7ff0sur"}

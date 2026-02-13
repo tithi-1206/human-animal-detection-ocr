@@ -1,0 +1,58 @@
+_wandb:
+    value:
+        cli_version: 0.24.2
+        e:
+            5lke42wpvgt05pd0bravdkhu1hl82cx0:
+                codePath: train_fasterrcnn.py
+                codePathLocal: train_fasterrcnn.py
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "12.5"
+                disk:
+                    /:
+                        total: "500369977344"
+                        used: "303056637952"
+                email: tithidangarwala@gmail.com
+                executable: F:\maharshi_industries\env\Scripts\python.exe
+                gpu: NVIDIA GeForce GTX 1650
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 1024
+                      memoryTotal: "4294967296"
+                      name: NVIDIA GeForce GTX 1650
+                      uuid: GPU-e911461d-0867-5f5c-494c-2079893762d1
+                host: DESKTOP-5E2GADV
+                memory:
+                    total: "34041827328"
+                os: Windows-11-10.0.26100-SP0
+                program: F:\maharshi_industries\train_fasterrcnn.py
+                python: CPython 3.12.10
+                root: F:\maharshi_industries
+                startedAt: "2026-02-11T17:32:13.906284Z"
+                writerId: 5lke42wpvgt05pd0bravdkhu1hl82cx0
+        m: []
+        python_version: 3.12.10
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.12.10
+            "5": 0.24.2
+            "8":
+                - 3
+            "12": 0.24.2
+            "13": windows-amd64
+batch_size:
+    value: 1
+epochs:
+    value: 10
+lr:
+    value: 0.002

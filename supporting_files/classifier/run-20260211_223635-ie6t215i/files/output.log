@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "F:\maharshi_industries\train_classifier.py", line 48, in <module>
+    val_dataset = datasets.ImageFolder(os.path.join(DATA_DIR, "val"), transform=val_transform)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\maharshi_industries\env\Lib\site-packages\torchvision\datasets\folder.py", line 328, in __init__
+    super().__init__(
+  File "F:\maharshi_industries\env\Lib\site-packages\torchvision\datasets\folder.py", line 149, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\maharshi_industries\env\Lib\site-packages\torchvision\datasets\folder.py", line 234, in find_classes
+    return find_classes(directory)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\maharshi_industries\env\Lib\site-packages\torchvision\datasets\folder.py", line 41, in find_classes
+    classes = sorted(entry.name for entry in os.scandir(directory) if entry.is_dir())
+                                             ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'classifier_dataset\\val'

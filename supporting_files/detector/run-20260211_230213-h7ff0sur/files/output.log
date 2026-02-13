@@ -1,0 +1,19 @@
+Using: cuda
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+F:\maharshi_industries\train_fasterrcnn.py:101: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler()
+F:\maharshi_industries\train_fasterrcnn.py:116: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+Epoch 1 | Loss: 555.7243
+Epoch 2 | Loss: 498.8925
+Epoch 3 | Loss: 474.0279
+Epoch 4 | Loss: 454.1866
+Epoch 5 | Loss: 431.5769
+Epoch 6 | Loss: 410.9822
+Epoch 7 | Loss: 389.6455
+Epoch 8 | Loss: 374.1975
+Epoch 9 | Loss: 355.8383
+Epoch 10 | Loss: 339.9131

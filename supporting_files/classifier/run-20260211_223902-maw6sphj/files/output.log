@@ -1,0 +1,40 @@
+F:\maharshi_industries\env\Lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+F:\maharshi_industries\env\Lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=EfficientNet_B0_Weights.IMAGENET1K_V1`. You can also use `weights=EfficientNet_B0_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Downloading: "https://download.pytorch.org/models/efficientnet_b0_rwightman-7f5810bc.pth" to C:\Users\s80da/.cache\torch\hub\checkpoints\efficientnet_b0_rwightman-7f5810bc.pth
+100.0%
+Training classifier head...
+[Freeze Phase] Epoch 1/3
+Train Loss: 0.6321, Train Acc: 0.6498
+Val Loss: 0.5965, Val Acc: 0.6603
+[Freeze Phase] Epoch 2/3
+Train Loss: 0.5620, Train Acc: 0.7234
+Val Loss: 0.5712, Val Acc: 0.6718
+[Freeze Phase] Epoch 3/3
+Train Loss: 0.5311, Train Acc: 0.7487
+Val Loss: 0.5442, Val Acc: 0.7023
+Fine-tuning entire model...
+[Fine-Tune Phase] Epoch 1/7
+Train Loss: 0.4987, Train Acc: 0.7581
+Val Loss: 0.4964, Val Acc: 0.7481
+[Fine-Tune Phase] Epoch 2/7
+Train Loss: 0.4494, Train Acc: 0.8002
+Val Loss: 0.4560, Val Acc: 0.8015
+[Fine-Tune Phase] Epoch 3/7
+Train Loss: 0.4148, Train Acc: 0.8328
+Val Loss: 0.4203, Val Acc: 0.8397
+[Fine-Tune Phase] Epoch 4/7
+Train Loss: 0.3956, Train Acc: 0.8496
+Val Loss: 0.3894, Val Acc: 0.8855
+[Fine-Tune Phase] Epoch 5/7
+Train Loss: 0.3596, Train Acc: 0.8854
+Val Loss: 0.3656, Val Acc: 0.8893
+[Fine-Tune Phase] Epoch 6/7
+Train Loss: 0.3282, Train Acc: 0.9022
+Val Loss: 0.3418, Val Acc: 0.8969
+[Fine-Tune Phase] Epoch 7/7
+Train Loss: 0.3169, Train Acc: 0.9022
+Val Loss: 0.3216, Val Acc: 0.9008
+Training complete.
+Best Validation Accuracy: 0.9007633587786259
